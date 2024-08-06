@@ -1,7 +1,8 @@
 import Branca from '../../components/Header_Branca/Header_Branca';
 import Footer from '../../components/Footer/footer';
-import { AbaProduto, SecaoCaracteristcas, TituloCaract, Caracteristica } from './style_Produto'
+import { AbaProduto, SecaoCaracteristcas, TituloCaract, Caracteristica, BotaoComprar } from './style_Produto'
 import InfosProduto from '../../components/Infos_do_Produto/InfosProduto'
+import { Link } from 'react-router-dom';
 
 function Produto() {
     return (
@@ -23,6 +24,10 @@ function Produto() {
 
 
             </SecaoCaracteristcas>
+
+            <Link to="/home">
+                <BotaoComprar>Comprar</BotaoComprar>
+            </Link>
 
             <Footer />
         </AbaProduto>
