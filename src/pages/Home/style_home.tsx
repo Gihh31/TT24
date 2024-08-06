@@ -40,6 +40,7 @@ export const SecaoCateg = styled.section`
     flex-direction:column;
     align-item:center;
     justify-content:space-between;    
+    
 `
 export const SecaoTotal = styled.section`
     display: flex;
